@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlarmClock</string>
+    <string name="action_settings">Настройки</string>
+    <string name="alarm_clock">Будильник</string>
+    <string name="alarm_clock_deleted">Будильник удален</string>
+    <string name="alarm_start_time">Будильник начнется в:</string>
+    <string name="change_time">Изменить время</string>
+    <string name="choice_melody">Выбрать мелодию</string>
+    <string name="choose_music">Выбрать мелодию</string>
+    <string name="defer">Отложить</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete_alarm">Удалить Будильник</string>
+    <string name="do_not_show_splash">Не показать заставку</string>
+    <string name="repeat">Повтор</string>
+    <string name="vibrate">Вибрация</string>
+    <string name="no_alarms">Будильники не установлены</string>
+    <string name="fri">Пт</string>
+    <string name="mon">Пон</string>
+    <string name="tue">Вт</string>
+    <string name="wed">Ср</string>
+    <string name="thu">Чт</string>
+    <string name="sat">Сб</string>
+    <string name="sun">Вс</string>
+    <string name="language">Язык</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_edit">Редактировать</string>
+    <string name="menu_item_delete">Выход</string>
+    <string name="menu_item_new">Новый</string>
+    <string name="title_setting">Глобальные настройки</string>
+    <string name="off">Выкл </string>
+
+    <string name="setting_application">Настройки приложения</string>
+    <string name="alarm_on">Будильники Вкл</string>
+    <string name="alarm_off">Будильники Выкл</string>
+    <string name="mew_alarm_clock">Новый будильник</string>
+    <string name="music_list">Список мелодий</string>
+    <string name="volume_play_song">Громкость проигрывания</string>
+</resources>

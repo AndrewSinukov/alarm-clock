@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlarmClock</string>
+    <string name="action_settings">Настройки</string>
+    <string name="alarm_clock">Будилник</string>
+    <string name="alarm_clock_deleted">Будилник изтрит</string>
+    <string name="alarm_off">Будилници изключ</string>
+    <string name="alarm_on">Будильники включ</string>
+    <string name="alarm_start_time">Алармата ще започне в</string>
+    <string name="cancel">Отказ</string>
+    <string name="change_time">Промяна на времето</string>
+    <string name="choice_melody">Изберете тон на звънене</string>
+    <string name="choose_music">Изберете тон на звънене</string>
+    <string name="defer">Отложи</string>
+    <string name="delete">Изтриване на</string>
+    <string name="delete_alarm">Изтриване На Аларма</string>
+    <string name="do_not_show_splash">Не се покаже лента за глава</string>
+    <string name="language">Език</string>
+    <string name="menu_delete">Изтриване на</string>
+    <string name="menu_edit">Редактиране на</string>
+    <string name="menu_item_delete">Изход</string>
+    <string name="menu_item_new">Нов</string>
+    <string name="mew_alarm_clock">Нов будилник</string>
+    <string name="music_list">Списък на мелодии</string>
+    <string name="no_alarms">Будилници не са инсталирани</string>
+    <string name="off">Изключ</string>
+    <string name="repeat">Повторение</string>
+    <string name="save">Запази</string>
+    <string name="setting_application">Настройките на приложението</string>
+    <string name="title_setting">Глобални настройки</string>
+    <string name="vibrate">Вибрация</string>
+    <string name="volume_play_song">Силата на звука</string>
+    <string name="wed">Ср</string>
+    <string name="tue">Вт</string>
+    <string name="thu">Чт</string>
+    <string name="sun">Нд</string>
+    <string name="sat">Сб</string>
+    <string name="time_play_song">Време на възпроизвеждане (мин)</string>
+    <string name="title_repeat_time_interval_alarm">Интервал на повторение (мин)</string>
+</resources>

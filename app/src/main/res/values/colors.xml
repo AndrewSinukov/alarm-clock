@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#90CAF9</color>
+    <color name="colorAccent">#90CAF9</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="blue">#3b5998</color>
+    <color name="grey">#3b5157</color>
+
+    <color name="background_main">#2b2c30</color>
+    <color name="background_dialog">#2f3034</color>
+    <color name="background_footer">#252529</color>
+    <color name="background_reader">#202124</color>
+    <color name="background_reader_buttons">#26272a</color>
+    <color name="background_gray">#eaeaea</color>
+    <color name="gray">#d2cfcd</color>
+    <color name="gray_reader">#565658</color>
+    <color name="gray_text">#b9b7b8</color>
+    <color name="dark_gray_text">#7f7f7f</color>
+    <color name="button_gray_text">#828282</color>
+
+    <color name="grey_goal_view_subtasks">#e6e6e6</color>
+
+    <color name="dark_gray">#3e4043</color>
+    <color name="translucent">#AFFF</color>
+    <color name="black_alpha">#82000000</color>
+
+    <color name="text_light">#d8d4d1</color>
+
+    <color name="yellow">#f5c800</color>
+    <color name="orange_light">#de9b3d</color>
+    <color name="orange_pressed">#ffda750c</color>
+
+    <color name="blue_pressed">#ff383870</color>
+
+    <color name="red">#dd4b39</color>
+    <color name="red_pressed">#ffb94130</color>
+
+    <color name="blue_light">#00aced</color>
+    <color name="blue_light_pressed">#ff0078b2</color>
+
+    <color name="edit_text_color">@color/background_footer</color>
+    <color name="gray_text_color">#848484</color>
+
+    <color name="button_dark">@color/background_footer</color>
+    <color name="button_dark_pressed">#ff000000</color>
+
+    <color name="magazine_text_color">#646568</color>
+
+    <color name="login_text_color">#434044</color>
+    <color name="login_facebook_blue">#3c66c4</color>
+    <color name="login_google_red">#cf4332</color>
+
+    <color name="switch_button_green">#4cd864</color>
+
+</resources>

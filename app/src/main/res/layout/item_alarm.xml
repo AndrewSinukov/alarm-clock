@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:background="@drawable/item_border"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/timeAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/statusBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/radius"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <RelativeLayout
+        android:id="@+id/wrapperAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeAlarm">
+
+        <LinearLayout
+            android:id="@+id/wrapperRepeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/repeat"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <CheckBox
+                android:id="@+id/repeatAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/radius"
+                android:clickable="false"
+                android:gravity="right" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/intervalData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wrapperRepeat"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/mon"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/tue"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/wed"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/thu"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/fri"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/sat"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/sun"
+                    android:textColor="@android:color/holo_blue_dark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wrapperCheckBoxDays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/M"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/radius"
+                    android:clickable="false"
+                    android:tag="Mon" />
+
+                <CheckBox
+                    android:id="@+id/T"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/radius"
+                    android:clickable="false"
+                    android:tag="Tue" />
+
+                <CheckBox
+                    android:id="@+id/W"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/radius"
+                    android:clickable="false"
+                    android:tag="Wed" />
+
+                <CheckBox
+                    android:id="@+id/Th"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/radius"
+                    android:clickable="false"
+                    android:tag="Thu" />
+
+                <CheckBox
+                    android:id="@+id/F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/radius"
+                    android:clickable="false"
+                    android:paddingRight="2dp"
+                    android:tag="Fri" />
+
+                <CheckBox
+                    android:id="@+id/S"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/radius"
+                    android:clickable="false"
+                    android:tag="Sat" />
+
+                <CheckBox
+                    android:id="@+id/Sn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/radius"
+                    android:clickable="false"
+                    android:tag="Sun" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wrapperAlarm"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/currentMusicAlarm"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Current sound"
+                android:textColor="@android:color/holo_blue_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/intervalData"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:text="@string/vibrate"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <CheckBox
+                android:id="@+id/vibrateAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/radius"
+                android:clickable="false"
+                android:gravity="right" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
